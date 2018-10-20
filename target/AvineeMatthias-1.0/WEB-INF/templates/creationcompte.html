@@ -1,0 +1,70 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<meta charset="UTF-8"> <!--definie les caractères utilisables-->
+		<title>Création de compte</title><!--nom de l'onglet-->
+		<link rel="stylesheet" type="text/css" href="css/styles.css"><!--lien vers la feuille de style-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+
+	<header th:replace="~{fragments::entete('creationcompte')}"></header>
+
+	<p class="probleme" th:if="${errorMessage != null}" th:text="${errorMessage}"></p>
+
+		<h1>Cr&eacute;ation d'un nouveau compte</h1>
+		
+		<form method="post">
+			<div class="row">
+				<div class="row">
+					<h4>Compte :</h4>
+				</div>
+				<div class="row">
+					<div class="col-mg-6">
+						Pseudo :
+					</div>
+					<div class="col-mg-4">
+						<input type="text" name="pseudo" maxlength="10"/>
+					</div>
+				</div>
+				<p>
+					<div class="col-mg-6">
+						 Mot de passe :
+					</div>
+					<div class="col-mg-4">
+						<input type="password" name="motdepasse">
+					</div>
+
+				<div class="row">
+					<h4>Vos Coordonn&eacute;es :</h4>
+				</div>
+
+				<p>
+					<div class="col-mg-6">
+						Email :
+					</div>
+					<div class="col-mg-4">
+						<input type="email" name="email" />
+					</div>
+
+				</p>
+				<p>
+					<div class="col-mg-6">
+						Numero de telephone :
+					</div>
+					<div class="col-mg-4">
+						<input type="number" name="telephone" />
+					</div>
+
+				</p>
+
+					<input id="valider" type="submit" name="valider" value="envoyer">
+			</div>
+
+		</form>
+	</body>
+</html>

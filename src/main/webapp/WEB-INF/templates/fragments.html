@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Fragments</title>
+</head>
+<body>
+
+<header th:fragment="entete(currentPage)">
+
+    <a href="/AvineeMatthias-1.0/index">
+        <img class="banniere" src="../img/new-orleans-banniere.png"><!--ajoute une image qui est aussi un lien permettant de retourner sur la page d'acceuil-->
+    </a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="/index">Les annonces</a>
+                <a class="nav-item nav-link" href="/prive/poster">Poster une annonce</a>
+                <a class="nav-item nav-link" href="/connexion" th:if="${pseudo == null}">Connexion</a>
+                <a class="nav-item nav-link" href="/deconnexion" th:if="${pseudo != null}">D&eacute;connexion</a>
+
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<div class="etat" th:fragment="0"> Etat :
+    <img class="iconeetat" src="../img/etatblanc.png">
+    <img class="iconeetat" src="../img/etatblanc.png">
+    <img class="iconeetat" src="../img/etatblanc.png">
+    <img class="iconeetat" src="../img/etatblanc.png">
+    <img class="iconeetat" src="../img/etatblanc.png">
+</div>
+<div class="etat" th:fragment="1"> Etat :
+    <img class="iconeetat" src="../img/etatjaune.png">
+    <img class="iconeetat" src="../img/etatblanc.png">
+    <img class="iconeetat" src="../img/etatblanc.png">
+    <img class="iconeetat" src="../img/etatblanc.png">
+    <img class="iconeetat" src="../img/etatblanc.png">
+</div>
+<div class="etat" th:fragment="2"> Etat :
+    <img class="iconeetat" src="../img/etatjaune.png">
+    <img class="iconeetat"  src="../img/etatjaune.png">
+    <img class="iconeetat" src="../img/etatblanc.png">
+    <img class="iconeetat" src="../img/etatblanc.png">
+    <img class="iconeetat" src="../img/etatblanc.png">
+</div>
+<div class="etat" th:fragment="3"> Etat :
+    <img class="iconeetat" src="../img/etatjaune.png">
+    <img class="iconeetat"  src="../img/etatjaune.png">
+    <img class="iconeetat"  src="../img/etatjaune.png">
+    <img class="iconeetat" src="../img/etatblanc.png">
+    <img class="iconeetat" src="../img/etatblanc.png">
+</div>
+<div class="etat" th:fragment="4"> Etat :
+    <img class="iconeetat" src="../img/etatjaune.png">
+    <img class="iconeetat"  src="../img/etatjaune.png">
+    <img class="iconeetat"  src="../img/etatjaune.png">
+    <img class="iconeetat"  src="../img/etatjaune.png">
+    <img class="iconeetat" src="../img/etatblanc.png">
+</div>
+<div class="etat" th:fragment="5"> Etat :
+    <img class="iconeetat" src="../img/etatjaune.png">
+    <img class="iconeetat"  src="../img/etatjaune.png">
+    <img class="iconeetat"  src="../img/etatjaune.png">
+    <img class="iconeetat"  src="../img/etatjaune.png">
+    <img class="iconeetat"  src="../img/etatjaune.png">
+</div>

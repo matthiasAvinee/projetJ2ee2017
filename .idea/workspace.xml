@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="AvineeMatthias:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="489e0ee3-fbcc-4bd7-aae7-cc9672e9cdb1" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1447361921">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.101" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="html" value="10" />
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="10" />
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="261" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="261" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1428">
+              <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/mesannonces.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/modifier.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" column="83" selection-start-line="48" selection-start-column="82" selection-end-line="48" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/poster.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+              <folding>
+                <element signature="e#1413#1421#0" expanded="true" />
+                <element signature="e#1422#1430#0" expanded="true" />
+                <element signature="e#1447#1455#0" expanded="true" />
+                <element signature="e#1483#1491#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/profil.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+              <folding>
+                <element signature="e#1180#1188#0" expanded="true" />
+                <element signature="e#1195#1203#0" expanded="true" />
+                <element signature="e#1204#1212#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/redirect.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <folding>
+                <element signature="e#1175#1182#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/connexion.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="63" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/creationcompte.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+              <folding>
+                <element signature="e#1265#1273#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragments.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+              <folding>
+                <element signature="e#931#939#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/servlets/posterServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&gt;</find>
+      <find>add</find>
+      <find>addau</find>
+      <find>addd</find>
+      <find>é</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/Utilis/MotdePasseUtilis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/daos/mock/impl/AuteurDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/entities/Auteur.java" />
+        <option value="$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/HttpServlet.class" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/Authentificationfiltre.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/annonces.html" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/daos/mock/impl/attentionServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/servlets/attentionServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/attention.html" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/daos/GenreDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/entities/Instrument.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/entities/Annonce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/entities/Condition.java" />
+        <option value="$PROJECT_DIR$/src/main/sql/database-init.sql" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/profilconnecte.html" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/daos/AuteurDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/indexconnecte.html" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/servlets/EncodingServlet.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/indexx.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/servlets/databaseInitServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/daos/DataSourceProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/Filtre/Authentificationfiltre.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/servlets/annoncesServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/servlets/connexionServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/servlets/deconnexionServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/servlets/HomeServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/servlets/mesAnnoncesServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/servlets/pictureServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/servlets/profilServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/servlets/redirectServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/servlets/supprimerServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/servlets/compterannoncesServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/annonces.js" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/servlets/modifierServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/daos/AnnonceDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/manager/bibliothequeAnnonce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/servlets/posterServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hei/devweb/servlets/CreationCompteServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/mesannonces.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/modifier.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/styles.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/connexion.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragments.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/poster.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/profil.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/redirect.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/creationcompte.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="402" />
+    <option name="width" value="1508" />
+    <option name="height" value="666" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="devweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="devweb" type="462c0819:PsiDirectoryNode" />
+              <item name="daos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="devweb" type="462c0819:PsiDirectoryNode" />
+              <item name="daos" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="devweb" type="462c0819:PsiDirectoryNode" />
+              <item name="Filtre" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="devweb" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="devweb" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="devweb" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="musique" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AvineeMatthias" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AvineeMatthias" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\perso\AvineeMatthias\src\main\webapp\musique" />
+      <recent name="C:\Users\perso\AvineeMatthias\src\main\resources" />
+      <recent name="C:\Users\perso\AvineeMatthias\src\main\java\hei\devweb\servlets\servlets" />
+      <recent name="C:\Users\perso\AvineeMatthias\src\main\webapp\WEB-INF\templates" />
+      <recent name="C:\Users\perso\AvineeMatthias\src\main\webapp\img" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hei.devweb.servlets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\perso\AvineeMatthias\src\main\webapp\WEB-INF\templates" />
+      <recent name="C:\Users\perso\AvineeMatthias\src\main\webapp\WEB-INF\prive" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Projet">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Projet" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.46" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="AvineeMatthias:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_AvineeMatthias" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51457" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="AvineeMatthias:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.Unnamed" />
+      <item itemvalue="Tomcat Server.Projet" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="489e0ee3-fbcc-4bd7-aae7-cc9672e9cdb1" name="Default" comment="" />
+      <created>1508599799389</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508599799389</updated>
+      <workItem from="1508599804248" duration="848000" />
+      <workItem from="1508601197137" duration="1047000" />
+      <workItem from="1508602492480" duration="7187000" />
+      <workItem from="1508667352369" duration="4995000" />
+      <workItem from="1508681203041" duration="1136000" />
+      <workItem from="1508688407844" duration="6450000" />
+      <workItem from="1508854170195" duration="3195000" />
+      <workItem from="1508857513310" duration="9826000" />
+      <workItem from="1508921873628" duration="203000" />
+      <workItem from="1508924734436" duration="3053000" />
+      <workItem from="1508928096164" duration="276000" />
+      <workItem from="1508930127528" duration="21000" />
+      <workItem from="1508932727456" duration="118000" />
+      <workItem from="1509029179851" duration="11252000" />
+      <workItem from="1509095889897" duration="486000" />
+      <workItem from="1509097440530" duration="70000" />
+      <workItem from="1509099771097" duration="28000" />
+      <workItem from="1509100653935" duration="12000" />
+      <workItem from="1509102493452" duration="11000" />
+      <workItem from="1509102961816" duration="2736000" />
+      <workItem from="1509113803307" duration="1515000" />
+      <workItem from="1509200755555" duration="17559000" />
+      <workItem from="1509225524118" duration="4352000" />
+      <workItem from="1509272201370" duration="3664000" />
+      <workItem from="1509276023826" duration="123000" />
+      <workItem from="1509277181985" duration="303000" />
+      <workItem from="1509302566111" duration="2591000" />
+      <workItem from="1509305593939" duration="5499000" />
+      <workItem from="1509315913607" duration="793000" />
+      <workItem from="1509355927331" duration="3049000" />
+      <workItem from="1509362057653" duration="6210000" />
+      <workItem from="1509374504993" duration="14558000" />
+      <workItem from="1509391750760" duration="1364000" />
+      <workItem from="1509393882256" duration="800000" />
+      <workItem from="1509449230396" duration="1620000" />
+      <workItem from="1509471006820" duration="7077000" />
+      <workItem from="1509533560463" duration="7302000" />
+      <workItem from="1509540963796" duration="1053000" />
+      <workItem from="1509557190622" duration="1284000" />
+      <workItem from="1509560969949" duration="2361000" />
+      <workItem from="1509613837400" duration="2805000" />
+      <workItem from="1509641352170" duration="1109000" />
+      <workItem from="1509957744922" duration="1369000" />
+      <workItem from="1509963193051" duration="550000" />
+      <workItem from="1509963840017" duration="159000" />
+      <workItem from="1509965169815" duration="1528000" />
+      <workItem from="1510069023459" duration="9208000" />
+      <workItem from="1510081622322" duration="512000" />
+      <workItem from="1510246180518" duration="4101000" />
+      <workItem from="1510912572972" duration="44000" />
+      <workItem from="1510915814963" duration="475000" />
+      <workItem from="1511083721820" duration="3653000" />
+      <workItem from="1511087479298" duration="953000" />
+      <workItem from="1511104415491" duration="6534000" />
+      <workItem from="1511117906734" duration="3883000" />
+      <workItem from="1511191903741" duration="784000" />
+      <workItem from="1511279807518" duration="10603000" />
+      <workItem from="1511361038491" duration="2359000" />
+      <workItem from="1511363959782" duration="86000" />
+      <workItem from="1511512103610" duration="634000" />
+      <workItem from="1511517142999" duration="76000" />
+      <workItem from="1511694530442" duration="14698000" />
+      <workItem from="1511713701702" duration="20000" />
+      <workItem from="1511775051157" duration="541000" />
+      <workItem from="1511777460323" duration="755000" />
+      <workItem from="1511884115710" duration="4427000" />
+      <workItem from="1511894549203" duration="328000" />
+      <workItem from="1512122010170" duration="3603000" />
+      <workItem from="1512485610941" duration="1341000" />
+      <workItem from="1516646884142" duration="5374000" />
+      <workItem from="1516694888438" duration="5108000" />
+      <workItem from="1516700805396" duration="4518000" />
+      <workItem from="1516726700404" duration="3822000" />
+      <workItem from="1517044690346" duration="3958000" />
+      <workItem from="1517067696178" duration="1778000" />
+      <workItem from="1517072274932" duration="47000" />
+      <workItem from="1517145235628" duration="65000" />
+      <workItem from="1517145983516" duration="2262000" />
+      <workItem from="1517149589714" duration="1407000" />
+      <workItem from="1517153058438" duration="2017000" />
+      <workItem from="1517314614607" duration="693000" />
+      <workItem from="1517321825219" duration="688000" />
+      <workItem from="1517386825454" duration="5673000" />
+      <workItem from="1517647679705" duration="1223000" />
+      <workItem from="1517839141008" duration="1041000" />
+      <workItem from="1518102784261" duration="36000" />
+      <workItem from="1521648183902" duration="1291000" />
+      <workItem from="1539703545637" duration="2940000" />
+      <workItem from="1539713129574" duration="585000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="257691000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24449877" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7096577" weight="0.32885906" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.05237316" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2903423" side_tool="true" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49092284" weight="0.17512275" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24938875" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3294621" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3294621" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25183374" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48184568" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.05237316" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5181543" side_tool="true" weight="0.9312602" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49092284" weight="0.17512275" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24938875" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3294621" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3294621" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/de/mkammerer/argon2-jvm/2.2/argon2-jvm-2.2.jar!/de/mkammerer/argon2/Argon2.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/Utilis/MotdePasseUtilis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="42" column="57" lean-forward="true" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="21" selection-start-line="19" selection-start-column="3" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/daos/mock/impl/AuteurDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/daos/mock/impl/AnnonceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/servlets/deconnexionServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/servlets/connexionServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="51" column="81" selection-start-line="51" selection-start-column="81" selection-end-line="51" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/Filtre/Authentificationfiltre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/manager/bibliothequeAnnonce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/daos/AuteurDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="105" column="3" lean-forward="true" selection-start-line="105" selection-start-column="3" selection-end-line="124" selection-end-column="5" />
+          <folding>
+            <marker date="1511289536452" expanded="true" signature="599:635" ph="SELECT * FRO... auteur" />
+            <marker date="1511289536452" expanded="true" signature="1031:1068" ph="SELECT mdp F... auteur" />
+            <marker date="1511289536452" expanded="true" signature="1669:1704" ph="SELECT * FRO... auteur" />
+            <marker date="1511289536452" expanded="true" signature="2409:2477" ph="INSERT INTO auteur... " />
+            <marker date="1511289536452" expanded="true" signature="3408:3437" ph="SELECT pseud... auteur" />
+            <marker date="1511289536452" expanded="true" signature="3938:3973" ph="SELECT * FRO... auteur" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/servlets/CreationCompteServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/servlets/annoncesServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/servlets/mesAnnoncesServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/mesannonces.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/modifier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="83" selection-start-line="48" selection-start-column="82" selection-end-line="48" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/poster.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+          <folding>
+            <element signature="e#1413#1421#0" expanded="true" />
+            <element signature="e#1422#1430#0" expanded="true" />
+            <element signature="e#1447#1455#0" expanded="true" />
+            <element signature="e#1483#1491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/profil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding>
+            <element signature="e#1180#1188#0" expanded="true" />
+            <element signature="e#1195#1203#0" expanded="true" />
+            <element signature="e#1204#1212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/redirect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="e#1175#1182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/connexion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="63" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/fragments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+          <folding>
+            <element signature="e#931#939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hei/devweb/servlets/posterServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/creationcompte.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="e#1265#1273#0" expanded="true" />
+            <element signature="e#1771#1779#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Test:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>AvineeMatthias</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax.servlet:javax.servlet-api:3.1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

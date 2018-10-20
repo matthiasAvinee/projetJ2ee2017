@@ -1,0 +1,222 @@
+﻿@charset "UTF-8";
+
+body{
+	font-family: Arial;/*definie la police comme étant Arial*/
+	background-color:white;/*l'image en arriere plan est un dégradé allant du gris clair au blanc*/
+    position: relative;
+    } 
+
+.banniere { 
+    width: 100%;/*la largeur de l'image sera 100% de la fenetre*/
+    height: 300px;/*la hauteur sera de 300 pixels*/
+    }
+
+audio{
+    right: 0;/*audio sera collé à droite*/
+	bottom: 0;/*et collé en bas*/
+	position: fixed;/*il restera en bas même si on descend dans la page*/
+     }
+
+article{
+	  padding: 10px;/*marge interieure sera de 10 pixels*/
+      float: left; /*l'article pourra se "balader" à gauche */
+      
+      background-color: rgba(15,30,60,0.05); /*le fond aura une couleur bleu clair, le 4e chiffre permet de diminuer la saturation de la couleur, ici la couleur est très estompée*/
+      width: 45%; /*il aura une largeur de 45% de la taille de la fenêtre*/
+      margin-top: 35px;
+      margin-bottom: 35px;
+      margin-left: 10%;/*la marge de droite sera de 10% de la fenêtre*/
+      border-radius: 10px;/*permet de'arrondir les coins*/
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+       }
+
+.button{
+	background-color:#800000;/*la couleur de fond sera du rouge/bordeau*/ 
+	text-decoration: none;/*permet de supprimer le soulignement du texte */
+	border: solid;/*ajoute des bordure au bouton*/
+	border-color: #800000;
+	color: white;/*la couleur du texte sera blanche*/
+	text-align: center;/*aligne le texte*/
+	display: inline-block;/*permet de mettre sur un meme ligne le bloc avec l'autre*/
+	padding: 10px 30px;/*marge interieure du bouton*/
+	font-size: 30px;/*taille de la police*/
+	margin-left: 3%;
+	border-radius: 5px; 
+
+      }
+
+.button:hover {/*permet de definir le style quand la souris passe au dessus du bouton*/
+    background-color:white; 
+    color: #800000;
+    border: solid;
+    border-color: #800000;
+			  }
+
+
+ .element{
+ 		float: right;/*l'élément peut se deplacer à droite */
+      	margin-right: 60px; 
+ 	  	margin-top: 20%;
+      	background-color: rgba(15,30,60,0.05);
+      	width: 25%;
+      	border-radius: 10px;
+      	padding: 15px; 
+      	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4); /*défini une ombre autour du bloc*/
+ 		}
+
+  .image {
+        
+ 	width: 60%;
+	height: 45%;
+ 	margin-left: 20%;
+ 	margin-top: 20px;
+ 	margin-bottom: 15px;
+ }
+
+  .image:hover{
+  	transform: scale(1.6);/*les photos d'instrument grossissent de 1,6 fois leur taille initiale quand la souris passere au dessus, quand j'ajouterais le javascript, cliquer sur l'image l'affichera en grand écran */
+  	transition: 2s;/*l'animation dure 2secondes*/
+
+  }
+
+ .date{ 
+ 	
+ 	margin-top:5px;
+    margin-left:5px;
+ 	font-size: 20px;
+ 	
+ }
+ .user{
+ 	display: inline-block;
+ 	font-size: 20px;
+ 	margin: 5px;
+
+ }
+ .titre{
+ 	display: inline-block;
+    margin-left: 25px;
+ 	font-size: 25px;
+ 	text-decoration:underline;/*souligne le texte*/
+ }
+ .prix{
+ 	text-align: center;
+ 	bottom: 0;
+ 	color:#800000;
+ 	margin: 5px;
+ }
+
+.icone{
+	display: inline-block;
+     float: right; 
+     margin-top:5px;
+} 
+
+.icone img{ /*les img de classe icônes auront une taille définie*/
+	height: 25px;
+	width: 25px;
+	margin: 3px;
+
+
+}
+
+.user img{ /*les image de classe user auront une taille définie*/
+	height: 25px;
+	width: 25px;
+}
+
+.etat{
+	margin: 15px;
+	margin-left: 60px;
+}
+
+.iconeetat {
+
+ 	width: 25px;
+ 	height: 25px;
+ }
+
+ form{
+	  padding: 10px;
+      float: left; 
+      background-color: rgba(15,30,60,0.05);
+      width: 35%;
+      margin-top: 35px;
+      margin-bottom: 35px;
+      margin-left: 10%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+       }
+
+  form p{
+     margin: 20px;
+     display: flex;
+     justify-content: space-between;
+
+  }     
+ 
+ #valider { 
+	bottom: 0;
+	float: right;
+	width: 100px;
+	height: 40px;
+	font-size: 22px;
+}       
+.profil{
+	  padding: 10px;
+      float: left; 
+      background-color: rgba(15,30,60,0.05);
+      width: 45%;
+      margin-top: 35px;
+      margin-bottom: 35px;
+      margin-left: 10%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+       }
+
+ #filtre form{ /*le form de id filtre*/
+	  
+	  padding: 10px;
+      background-color: rgba(15,30,60,0.05);
+      width: 80%;
+      margin-top: 35px;
+      margin-bottom: 35px;
+      margin-left: 10%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+       }
+ 
+ #filtre input{
+ 	float: right; 
+ }
+
+ #filtre label {
+ 	margin-right: 25px;
+ 	margin-left: 25px;
+ }
+
+.contacter:hover,.supprimer:hover,.modifier:hover {
+  transform: scale(2);
+  transition: 0.5s; 
+}
+
+
+#flechedroite:hover,#flechegauche:hover{
+   transform: scale(2);
+   transition: 1s;
+}
+
+ body h1{
+	text-align: center;
+	margin-top: 35px; 
+}
+
+.probleme{
+    padding: 10px;
+    background-color: rgba(255,87,51,0.6);
+    width: 45%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}

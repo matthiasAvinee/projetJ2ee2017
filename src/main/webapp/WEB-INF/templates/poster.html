@@ -1,0 +1,72 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Poster une annonce</title><!--On ne pourra acceder à cette page que si on est connecté, sinon on sera redirigé vers connexion.html (le formulaire de connection au site) -->
+		<link rel="stylesheet" type="text/css" href="../css/styles.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</head >
+
+	<body>
+
+	<header th:replace="~{fragments::entete('poster')}"></header>
+
+	<p class="probleme" th:if="${errorMessage != null}" th:text="${errorMessage}"></p>
+
+		<div class="element"><!--reutilisation de la classe element-->
+			<p>Remplissez du mieux que vous pouvez chaque &eacute;l&eacute;ment.</p>
+			<p>V&eacute;rifiez bien que vos coordonn&eacute;es sont exactes.</p>
+		</div>
+		
+		<form method="post" enctype="multipart/form-data"><!--début du formulaire-->
+
+			<!--	<p>Date :
+                    <input type="date" name="date" />Quand j'ajoueterais le java script, la date se mettra seule-->
+			</p>
+			<h2>Informations sur l'article :</h2>
+			<p>
+				<label> Titre de l'annonce :
+					<input type="text" name="titre" maxlength="20" placeholder="titre"><!--limité à 20 caractères-->
+				</label>
+			</p>
+
+			<p>
+				<label>
+					<label>
+						Quel instrument vendez vous ?
+					</label>
+					<select name="instrument">
+					<option th:each="instrument :${instruments}" th:value="${instrument.name()}" th:text="${instrument.name()}"></option>
+					</select>
+				</label>
+			</p>
+			<p>
+    			<label>Description de l'article :
+    				<textarea name="description" placeholder="description" rows="5" cols="40" maxlength="200">
+    				</textarea><!--zone de texte, de 5lignes et 40 colonnes, limitée à 200 Caractères, il y aura, grâce au javascript un compteur indicant le nombre de caractères restant-->
+    			</label>
+			</p>
+			<p>
+    			<label>
+    				Etat :
+    				<input type="number" name="etat" min="0" placeholder="etat" max="5"/>/5
+    			</label><!--ne permet que de mettre un chiffre entre 0 et 5-->
+			</p>
+			Ajouter une photo :
+                    <input type="file" name="image" value="ajouter"/>
+
+			<p>
+    		<label>Prix :
+    			<input type="number" name="prix" min="0" placeholder="prix" />Euros
+    		</label><!--permet d'ajouter un chiffre-->
+			</p>
+				<input id="valider" type="submit" name="valider" value="envoyer">
+	
+		</form>
+
+			
+	</body>
+</html>

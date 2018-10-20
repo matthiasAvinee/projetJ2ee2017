@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+              http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+    <jsp-config>
+        <jsp-property-group>
+            <description>Config. de l'encodage des pages JSP</description>
+            <url-pattern>*.jsp</url-pattern>
+            <page-encoding>UTF-8</page-encoding>
+        </jsp-property-group>
+    </jsp-config>
+
+    <welcome-file-list>
+        <welcome-file>index</welcome-file>
+    </welcome-file-list>
+
+    <filter>
+        <filter-name>AuthentificationFiltre</filter-name>
+        <filter-class>hei.devweb.Filtre.Authentificationfiltre</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>AuthentificationFiltre</filter-name>
+        <url-pattern>/prive/*</url-pattern>
+    </filter-mapping>
+</web-app>

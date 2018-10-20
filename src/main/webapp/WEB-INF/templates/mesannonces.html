@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"> <!--definie les caractères utilisables-->
+    <title>Mes annonces</title><!--nom de l'onglet-->
+    <link rel="stylesheet" type="text/css" href="../css/styles.css"><!--lien vers la feuille de style-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<header th:replace="~{fragments::entete('mesannnonces')}"></header>
+
+
+
+<article th:each="annonce : ${annonceList}">
+    <div class="icone">
+        <a th:href="${'modifier?id='+annonce.id}">
+        <img src="../img/modifier.png" class="modifier">
+        </a>
+        <a th:href="${'supprimer?id='+annonce.id}">
+        <img src="../img/supprimer.png" class="supprimer">
+        </a>
+    </div>
+    <div class="user"><!--crée un bloc de classe user-->
+        <span>
+            <img src="../img/user.png">
+        </span>
+        <span>
+            <span th:text="${annonce.auteur}">jojo59</span>
+        </span><!--son nom et l'icone sont un lien vers le profil de vendeur-->
+
+    </div>
+
+    <div class="titre" th:text="${annonce.titre}"></div>
+    <img class="image" src="../img/pasimg.png">
+
+    <div class="texte" th:text="${annonce.description}"></div>
+    <div class=prix > Prix : <span th:text="${annonce.prix}"></span>Euros</div>
+
+    <div th:replace="~{fragments::${annonce.getEtat()}}">
+    </div>
+
+</article>
+
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"> <!--definie les caractères utilisables-->
+    <title>Les annonces</title><!--nom de l'onglet-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script type="text/javascript" src="js/annonce.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<header th:replace="~{fragments::entete('index') }" ></header>
+
+
+<h1 th:if="${pseudo != null}" th:text="'Bienvenue '+${pseudo}+', que peut-on faire pour vous ?'"></h1>
+
+
+<div id="filtre">
+    <form method="post">
+
+        <label>
+            Quel instrument cherchez vous ?
+        </label>
+
+        <select name="instrument">
+            <option>tous</option>
+            <option th:each="instrument :${instruments}" th:value="${instrument.name()}" th:text="${instrument.name()}" th:selected="${instrumentFilter != null && instrument.name() == instrumentFilter.name()}"></option>
+
+        </select>
+
+        <label>
+            Ordonner par :
+        </label>
+
+        <select name="condition">
+            <option th:each="condition :${conditions}" th:value="${condition.name()}" th:text="${condition.name()}" th:selected="${conditionFilter != null && condition.name() == conditionFilter.name()}"></option>
+
+        </select>
+
+        <input type="submit" name="rechercher" value="rechercher">
+    </form>
+</div>
+
+
+
+<div class="element"><!--nouveu bloc de classe élément-->
+    <h1> A quoi sert ce site ? </h1>
+    <p> Ce site vous permet tout simplement de mettre en contact des musiciens afin qu'ils puissent vendre ou acheter des instruments.</p>
+</div>
+
+
+<article th:each="annonce : ${annonceList}">
+    <div class="icone"><!--defini les icônes en haut à droite-->
+
+        <a th:href="${'annonce?auteur='+annonce.auteur}" ><!--l'image en forme de lettre est un lien vers le profil du vendeur-->
+            <img src="img/contacter.png" class="contacter">
+        </a>
+
+    </div>
+
+    <div class="user"><!--crée un bloc de classe user-->
+        <a th:href="${'annonce?auteur='+annonce.auteur}">
+            <img src="img/user.png">
+        </a>
+        <a th:href="${'annonce?auteur='+annonce.auteur}" >
+            <span th:text="${annonce.auteur}">jojo59</span>
+        </a><!--son nom et l'icone sont un lien vers le profil de vendeur-->
+
+    </div>
+
+    <div class="titre" th:text="${annonce.titre}"></div>
+    <img class="image" src="../img/pasimg.png">
+
+    <div class="texte" th:text="${annonce.description}"></div>
+    </p>
+    </div>
+    <div class=prix > Prix : <span th:text="${annonce.prix}"></span>Euros</div>
+
+    <div th:replace="~{fragments::${annonce.getEtat()}}">
+    </div>
+
+</article>
+
+<audio controls><!--Ajoute un fichier audio ainsi que les boutons qui permette de le manipuler-->
+    <source src="musique/jazz.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
