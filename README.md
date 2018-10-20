@@ -5,3 +5,4 @@ Ce projet est mon projet réalisé à la fin de mes cours de J2ee. C'est un site
 Un visiteurs pourra consulter les annonces et se connecter/creer un compte afin de pouvoir en ajouter.
 
 Ce site est hébergé. Il est disponible à l'url : http://annoncesjazz.com/
+La connexion est possible avec le compte : azerty mdp : azerty
